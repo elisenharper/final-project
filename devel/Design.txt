@@ -1,0 +1,26 @@
+Elise Harper
+Web Search and Instagram Screenshot Design
+
+This program utilizes a module called 'time'. This makes the program wait a specified 
+amount of time for the webpage to load before trying to click something on the page that hasn't loaded yet.
+
+The other module I used was the selenium module to control the webbrowser. Using this, I can type in text, click
+links, load pages and take a screenshot. There's a lot you can do with this module.
+
+When you run the program in IDLE, it will open a Firefox browser.
+
+The browser opens to Google's homepage with the search bar empty.
+
+The phrase 'fox 35 news instagram' is then typed into the search bar and the 'Enter' button is clicked
+to execute the search.
+
+The program then holds for 5 seconds to allow the resulting search enough time to fully load.
+
+I then have the program clicking on the link that matches 'https://www.instagram.com'
+
+The program holds for another 5 seconds as Fox 35's Instagram page is loaded.
+
+Then a full page screenshot is taken of the Instagram page showing all the photos. 
+It is saved as 'screenshot_photos.png' in the current working folder.
+
+The browser then closes and in the command shell, I tell the user that their screenshot has been saved.
