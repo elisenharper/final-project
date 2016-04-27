@@ -1,0 +1,18 @@
+# Instructions for Running my Project
+
+Elise Harper Final Project
+Web Navigation
+
+1. Make sure your device is connected to the Internet and that you have Firefox installed. You can download Firefox for free from here: https://www.mozilla.org/en-US/firefox/new/?utm_source=google&utm_medium=paidsearch&utm_campaign=Brand-US-GGL-Exact&utm_term=install%20firefox&gclid=CjwKEAjwgPe4BRCB66GG8PO69QkSJAC4EhHhTxavg5TfY3Zs7DRpkAoWeMyvnKp2dQ7xWq0EO8sWThoCgEjw_wcB
+2. Make sure you have installed the Selenium module
+3. Open the file 'EHFinal_Project' in IDLE
+4. Run the file by pressing F5
+5. The program should open Google's homepage in Firefox. Note- this may take a few seconds to complete...please be patient while it loads!
+6. The search field will auto-fill with the term 'Fox 35 News Instagram' and bring up the resulting search.
+7. The program will hold on the search page for 5 seconds to allow everything to load then it will click the link to Fox 35's Instagram page.
+8. The Instagram page will load and a screenshot will be taken. The program will hold for 5 seconds before closing the browser.
+9. To view the screenshot look for a file named "screenshot_photos.png" in your current working directory on your computer.
+10. If you do not see a file named that, make sure you're searching all files and not just Python files in order to bring up the .png
+
+
+Replace this text with the instructions your classmates will need to run your project. If your code needs any libraries using `pip` or any other tool, those instructions should be here as well. A complete stranger should be able to follow these instructions, so don't be afraid to include videos, screenshots, diagrams, text, whatever helps!
